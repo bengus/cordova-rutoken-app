@@ -18,10 +18,16 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-add-swift-support": {},
+      "cordova-plugin-rutoken": {}
     },
     "platforms": [
       "ios"
     ]
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "cordova-plugin-rutoken": "git+https://github.com/ermashov/cordova-plugin-rutoken.git#bb_implement_ios"
   }
 }
